@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# AGA Shopping 🛍️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frontend e-commerce web application built with React.js. Users can browse products by category, view details, manage cart, switch themes, and use login/signup UI.
 
-## Available Scripts
+### ✨ Features
+- **Home Page** - Landing page with featured products
+- **Category Page** - Browse and filter products by category
+- **Product Details** - View images, price, description for each product
+- **Shopping Cart** - Add/remove items, update quantity, live total
+- **Cart Context** - Global cart state using `CartContext.js`
+- **Theme Context** - Light/Dark mode toggle using `ThemeContext.js`
+- **Authentication UI** - Login and Signup pages (frontend only)
+- **React Router** - Navigation between all pages
+- **Responsive Design** - Mobile, tablet, and desktop friendly
 
-In the project directory, you can run:
+### 🛠️ Tech Stack
+- **Frontend:** React.js, React Router DOM
+- **Styling:** CSS3 - `Home.css`, `ProductDetail.css`, `App.css`, `index.css`
+- **State Management:** React Context API - `CartContext`, `ThemeContext`
+- **Data:** Static/Local data
+- **Icons:** React Icons
 
-### `npm start`
+### 📂 Project Structure
+ecommerce/
+├── public/
+│   └── index.html
+├── src/
+│   ├── Context/
+│   │   ├── CartContext.js      # Cart state management
+│   │   └── ThemeContext.js     # Light/Dark theme toggle
+│   ├── Pages/
+│   │   ├── Home.js             # Landing page
+│   │   ├── Home.css
+│   │   ├── Category.js         # Category filter page
+│   │   ├── ProductDetail.js    # Single product view
+│   │   ├── ProductDetail.css
+│   │   ├── Cart.js             # Shopping cart page
+│   │   ├── Login.js            # Login UI
+│   │   └── Signup.js           # Signup UI
+│   ├── App.js                  # Routes setup
+│   ├── App.css
+│   ├── index.js                # Entry point
+│   └── index.css               # Global styles
+├── package.json
+└── README.md
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🚀 How to Run
+1. **Clone the repository**
+2. **Install dependencies**
+3. **Start the development server**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **View in browser**  
+   Open `http://localhost:3000`
 
-### `npm test`
+### 📝 Important Note
+This is a **frontend-only academic project**. Login/Signup pages are UI only with no backend authentication. All product and cart data is handled client-side using Context API. Checkout does not process real payments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔮 Future Enhancements
+- [ ] Backend with Node.js + Express
+- [ ] MongoDB for products and user data
+- [ ] JWT authentication for Login/Signup
+- [ ] Payment gateway integration
+- [ ] Order tracking page
 
-### `npm run build`
+### 🎯 About
+Academic project built to practice React.js concepts like Context API, React Router, component reusability, and responsive design. Developed as part of coursework.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 👨‍💻 Author
+**Ajay A**  
+GitHub: [@nsajayag-source](https://github.com/nsajayag-source)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+**Academic Project** | React.js | Frontend Only
